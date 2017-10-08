@@ -15,7 +15,7 @@ web:
   ports:
     - "80:80"
   volumes:
-    - /var/wwww/allocine/nginx:/etc/nginx/conf.d
+    - /var/www/allocine/nginx:/etc/nginx/conf.d
   links:
     - php:php
 
